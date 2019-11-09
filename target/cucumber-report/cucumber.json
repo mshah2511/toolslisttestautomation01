@@ -1,0 +1,199 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 19,
+        "name": "a registered user logs into the website",
+        "description": "",
+        "id": "login;a-registered-user-logs-into-the-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:14)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
+              "duration": 2717299,
+              "status": "pending"
+            },
+            "line": 14,
+            "name": "I am logged out",
+            "match": {
+              "location": "Stepdefs.i_am_logged_out()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88166,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I enter username \"mishal.shah@somoglobal.com\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mishal.shah@somoglobal.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 50
+                }
+              ],
+              "location": "Stepdefs.i_enter_username_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23499,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "The user is taken to My Profile page",
+            "match": {
+              "location": "Stepdefs.the_user_is_taken_to_My_Profile_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high-impact"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "a registered user logs into the website",
+        "description": "",
+        "id": "login;a-registered-user-logs-into-the-website;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:14)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
+              "duration": 182869,
+              "status": "pending"
+            },
+            "line": 14,
+            "name": "I am logged out",
+            "match": {
+              "location": "Stepdefs.i_am_logged_out()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6468,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I enter username \"mishalshah_1@hotmail.com\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mishalshah_1@hotmail.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Stepdefs.i_enter_username_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10740,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "The user is taken to My Profile page",
+            "match": {
+              "location": "Stepdefs.the_user_is_taken_to_My_Profile_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high-impact"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "a registered user logs into the website",
+        "description": "",
+        "id": "login;a-registered-user-logs-into-the-website;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:14)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
+              "duration": 202655,
+              "status": "pending"
+            },
+            "line": 14,
+            "name": "I am logged out",
+            "match": {
+              "location": "Stepdefs.i_am_logged_out()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6641,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I enter username \"mishalashah.01@gmail.com\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mishalashah.01@gmail.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Stepdefs.i_enter_username_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6506,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "The user is taken to My Profile page",
+            "match": {
+              "location": "Stepdefs.the_user_is_taken_to_My_Profile_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high-impact"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  Acceptance Criteria:\n  * In order to favourite a car\n  As a user\n  I want to know if my login is successful\n\n  Rules:\n  * The user must be informed if the login information is incorrect\n  * The user must be taken to My Profile page if the login is successful",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:co/uk/cinch/login.feature",
+    "tags": []
+  }
+]
