@@ -3,17 +3,39 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 11557629107,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.setUp()"
+            }
+          }
+        ],
         "line": 19,
         "name": "a registered user logs into the website",
         "description": "",
         "id": "login;a-registered-user-logs-into-the-website;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2158673515,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:14)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
-              "duration": 3409807,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:39)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
+              "duration": 2017953,
               "status": "pending"
             },
             "line": 14,
@@ -25,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 13721,
+              "duration": 13144,
               "status": "skipped"
             },
             "line": 15,
@@ -47,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 7884,
+              "duration": 8128,
               "status": "skipped"
             },
             "line": 16,
@@ -65,17 +87,39 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 9518805895,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.setUp()"
+            }
+          }
+        ],
         "line": 20,
         "name": "a registered user logs into the website",
         "description": "",
         "id": "login;a-registered-user-logs-into-the-website;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2191284204,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:14)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
-              "duration": 907103,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:39)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
+              "duration": 167101,
               "status": "pending"
             },
             "line": 14,
@@ -87,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 15769,
+              "duration": 6757,
               "status": "skipped"
             },
             "line": 15,
@@ -109,7 +153,7 @@
           },
           {
             "result": {
-              "duration": 18856,
+              "duration": 6346,
               "status": "skipped"
             },
             "line": 16,
@@ -127,17 +171,39 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 9899213405,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.setUp()"
+            }
+          }
+        ],
         "line": 21,
         "name": "a registered user logs into the website",
         "description": "",
         "id": "login;a-registered-user-logs-into-the-website;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2185369315,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:14)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
-              "duration": 221943,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:39)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
+              "duration": 134297,
               "status": "pending"
             },
             "line": 14,
@@ -149,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 9408,
+              "duration": 4331,
               "status": "skipped"
             },
             "line": 15,
@@ -171,7 +237,7 @@
           },
           {
             "result": {
-              "duration": 14727,
+              "duration": 9613,
               "status": "skipped"
             },
             "line": 16,
