@@ -20,3 +20,11 @@ Feature: Login
     | mishalshah_1@hotmail.com   | London145
     | mishalashah.01@gmail.com   | London145
 
+    @to-do
+    Scenario: an invalid user attempts to log in
+      Given I am logged out
+      When I enter username "attacker" and "dontletmein"
+      Then The user is informed that the login is unsuccessful
+
+
+

@@ -13,7 +13,7 @@
           {
             "result": {
               "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:14)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
-              "duration": 2717299,
+              "duration": 3409807,
               "status": "pending"
             },
             "line": 14,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 88166,
+              "duration": 13721,
               "status": "skipped"
             },
             "line": 15,
@@ -41,13 +41,13 @@
                   "offset": 50
                 }
               ],
-              "location": "Stepdefs.i_enter_username_and(String,String)"
+              "location": "Stepdefs.i_enter_username_and_password(String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 23499,
+              "duration": 7884,
               "status": "skipped"
             },
             "line": 16,
@@ -75,7 +75,7 @@
           {
             "result": {
               "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:14)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
-              "duration": 182869,
+              "duration": 907103,
               "status": "pending"
             },
             "line": 14,
@@ -87,7 +87,7 @@
           },
           {
             "result": {
-              "duration": 6468,
+              "duration": 15769,
               "status": "skipped"
             },
             "line": 15,
@@ -103,13 +103,13 @@
                   "offset": 48
                 }
               ],
-              "location": "Stepdefs.i_enter_username_and(String,String)"
+              "location": "Stepdefs.i_enter_username_and_password(String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 10740,
+              "duration": 18856,
               "status": "skipped"
             },
             "line": 16,
@@ -137,7 +137,7 @@
           {
             "result": {
               "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:14)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
-              "duration": 202655,
+              "duration": 221943,
               "status": "pending"
             },
             "line": 14,
@@ -149,7 +149,7 @@
           },
           {
             "result": {
-              "duration": 6641,
+              "duration": 9408,
               "status": "skipped"
             },
             "line": 15,
@@ -165,13 +165,13 @@
                   "offset": 48
                 }
               ],
-              "location": "Stepdefs.i_enter_username_and(String,String)"
+              "location": "Stepdefs.i_enter_username_and_password(String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 6506,
+              "duration": 14727,
               "status": "skipped"
             },
             "line": 16,
