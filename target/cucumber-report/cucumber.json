@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 12377906865,
+              "duration": 7847420595,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 2167747912,
+              "duration": 2092534979,
               "status": "passed"
             },
             "match": {
@@ -34,9 +34,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:39)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
-              "duration": 1548385,
-              "status": "pending"
+              "duration": 7978367,
+              "status": "passed"
             },
             "line": 14,
             "name": "I am logged out",
@@ -47,8 +46,9 @@
           },
           {
             "result": {
-              "duration": 25947,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".ase\\-button\\-module_base\\ primary\\-button\\-module_button\\ base\\-button\\-module_regular\\ base\\-button\\-module_full\\-width\\ login_button\"}\n  (Session info: chrome\u003d80.0.3987.87)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SOMO-M-LDN-049.local\u0027, ip: \u0027fe80:0:0:0:8d5:48e6:2f07:1fae%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.5\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.87, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/cb/0q7v3gy51qz...}, goog:chromeOptions: {debuggerAddress: localhost:50370}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d9185de848adf6d32ecdaabe7adff47c\n*** Element info: {Using\u003dclass name, value\u003dase-button-module_base primary-button-module_button base-button-module_regular base-button-module_full-width login_button}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat pages.LoginPage.clickLoginButton(LoginPage.java:35)\n\tat co.uk.cinch.Stepdefs.i_enter_username_and_password(Stepdefs.java:54)\n\tat ✽.I enter username \"mishal.shah@somoglobal.com\" and \"\u003cpassword\u003e\"(classpath:co/uk/cinch/login.feature:15)\n",
+              "duration": 295661848,
+              "status": "failed"
             },
             "line": 15,
             "name": "I enter username \"mishal.shah@somoglobal.com\" and \"\u003cpassword\u003e\"",
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 6781,
+              "duration": 13409,
               "status": "skipped"
             },
             "line": 16,
@@ -90,7 +90,7 @@
         "before": [
           {
             "result": {
-              "duration": 5182662331,
+              "duration": 1844900056,
               "status": "passed"
             },
             "match": {
@@ -105,7 +105,7 @@
         "after": [
           {
             "result": {
-              "duration": 2191413052,
+              "duration": 2104524663,
               "status": "passed"
             },
             "match": {
@@ -118,9 +118,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:39)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
-              "duration": 169888,
-              "status": "pending"
+              "duration": 4871464,
+              "status": "passed"
             },
             "line": 14,
             "name": "I am logged out",
@@ -131,8 +130,9 @@
           },
           {
             "result": {
-              "duration": 6865,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".ase\\-button\\-module_base\\ primary\\-button\\-module_button\\ base\\-button\\-module_regular\\ base\\-button\\-module_full\\-width\\ login_button\"}\n  (Session info: chrome\u003d80.0.3987.87)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SOMO-M-LDN-049.local\u0027, ip: \u0027fe80:0:0:0:8d5:48e6:2f07:1fae%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.5\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.87, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/cb/0q7v3gy51qz...}, goog:chromeOptions: {debuggerAddress: localhost:50405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 64934c23e9e2e8335b0ef91f1028190b\n*** Element info: {Using\u003dclass name, value\u003dase-button-module_base primary-button-module_button base-button-module_regular base-button-module_full-width login_button}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat pages.LoginPage.clickLoginButton(LoginPage.java:35)\n\tat co.uk.cinch.Stepdefs.i_enter_username_and_password(Stepdefs.java:54)\n\tat ✽.I enter username \"mishalshah_1@hotmail.com\" and \"\u003cpassword\u003e\"(classpath:co/uk/cinch/login.feature:15)\n",
+              "duration": 231155634,
+              "status": "failed"
             },
             "line": 15,
             "name": "I enter username \"mishalshah_1@hotmail.com\" and \"\u003cpassword\u003e\"",
@@ -153,7 +153,7 @@
           },
           {
             "result": {
-              "duration": 5422,
+              "duration": 8554,
               "status": "skipped"
             },
             "line": 16,
@@ -174,7 +174,7 @@
         "before": [
           {
             "result": {
-              "duration": 5377883295,
+              "duration": 1957659335,
               "status": "passed"
             },
             "match": {
@@ -189,7 +189,7 @@
         "after": [
           {
             "result": {
-              "duration": 2200309049,
+              "duration": 2094481132,
               "status": "passed"
             },
             "match": {
@@ -202,9 +202,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat co.uk.cinch.Stepdefs.i_am_logged_out(Stepdefs.java:39)\n\tat ✽.I am logged out(classpath:co/uk/cinch/login.feature:14)\n",
-              "duration": 172269,
-              "status": "pending"
+              "duration": 10527027,
+              "status": "passed"
             },
             "line": 14,
             "name": "I am logged out",
@@ -215,8 +214,9 @@
           },
           {
             "result": {
-              "duration": 6682,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".ase\\-button\\-module_base\\ primary\\-button\\-module_button\\ base\\-button\\-module_regular\\ base\\-button\\-module_full\\-width\\ login_button\"}\n  (Session info: chrome\u003d80.0.3987.87)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SOMO-M-LDN-049.local\u0027, ip: \u0027fe80:0:0:0:8d5:48e6:2f07:1fae%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.5\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.87, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/cb/0q7v3gy51qz...}, goog:chromeOptions: {debuggerAddress: localhost:50440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7b8d269b87a7b171dd0cb4bef2b91fcc\n*** Element info: {Using\u003dclass name, value\u003dase-button-module_base primary-button-module_button base-button-module_regular base-button-module_full-width login_button}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat pages.LoginPage.clickLoginButton(LoginPage.java:35)\n\tat co.uk.cinch.Stepdefs.i_enter_username_and_password(Stepdefs.java:54)\n\tat ✽.I enter username \"mishalashah.01@gmail.com\" and \"\u003cpassword\u003e\"(classpath:co/uk/cinch/login.feature:15)\n",
+              "duration": 264104947,
+              "status": "failed"
             },
             "line": 15,
             "name": "I enter username \"mishalashah.01@gmail.com\" and \"\u003cpassword\u003e\"",
@@ -237,7 +237,7 @@
           },
           {
             "result": {
-              "duration": 6446,
+              "duration": 7901,
               "status": "skipped"
             },
             "line": 16,
